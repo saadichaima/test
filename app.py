@@ -6,6 +6,6 @@ for j in range(0,2):
         with open('file.txt','a') as file :
             file.write(d)
         os.system('git add .')
-        os .system('git commit --date="2022-07-29" -m "commit"')
+        os .system('git commit --date="2022-07-30" -m "commit"')
 
 os.system('git push -u origin main')
